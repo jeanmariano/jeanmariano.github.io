@@ -1,0 +1,95 @@
+@keyframes starglow {
+  0% {
+    transform: rotate(90deg); }
+  100% {
+    transform: rotate(180deg); } }
+
+@keyframes glow {
+  0% {
+    box-shadow: 0px 0px 80px 20px rgba(255, 255, 255, 0.3); }
+  50% {
+    box-shadow: 0px 0px 80px 5px rgba(255, 255, 255, 0.1); }
+  100% {
+    box-shadow: 0px 0px 80px 20px rgba(255, 255, 255, 0.3); } }
+
+@keyframes bob {
+  0% {
+    top: 20px; }
+  50% {
+    top: 15px; }
+  100% {
+    top: 20px; } }
+
+.Moon {
+  background: #e6e3d9;
+  width: 350px;
+  height: 350px;
+  top: 20%;
+  left: calc(50% - 170px);
+  border-radius: 50%;
+  box-shadow: 0px 0px 110px 25px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  border: 1px solid #bfffff;
+  animation: glow 5s ease infinite; }
+  .Moon-innershadow {
+    background: #f5f1e3;
+    width: 350px;
+    height: 350px;
+    top: -10%;
+    left: 10%;
+    border-radius: 50%; }
+
+.Moon-crater {
+  background: #c5c1b2;
+  border-radius: 50%;
+  position: absolute;
+  border: 7px solid #f5f1e3;
+  box-shadow: 1px 3px 0px 1px #e6e3d9;
+  overflow: hidden; }
+  .Moon-crater--1 {
+    width: 8%;
+    height: 8%;
+    top: 12%;
+    left: 22%;
+    border-width: 4px; }
+  .Moon-crater--2 {
+    width: 15%;
+    height: 15%;
+    top: 33%;
+    left: 32%; }
+  .Moon-crater--3 {
+    width: 10%;
+    height: 10%;
+    top: 77%;
+    left: 30%;
+    border-width: 5px; }
+  .Moon-crater--4 {
+    width: 7%;
+    height: 7%;
+    top: 30%;
+    left: 75%;
+    border-width: 5px;
+    transform: rotate(-30deg); }
+  .Moon-crater--5 {
+    width: 13%;
+    height: 13%;
+    top: 65%;
+    left: 65%;
+    border-width: 5px;
+    transform: rotate(-30deg); }
+  .Moon-crater--6 {
+    width: 5%;
+    height: 5%;
+    top: 55%;
+    left: 10%;
+    border-width: 4px;
+    transform: rotate(-30deg); }
+
+.cratershadow {
+  background: #e6e3d9;
+  width: 101%;
+  height: 101%;
+  border-radius: 50%;
+  top: 13%;
+  left: 13%;
+  position: relative; }
