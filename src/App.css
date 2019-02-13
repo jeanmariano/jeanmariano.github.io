@@ -136,9 +136,8 @@ body {
 .water {
   width: 100%;
   height: 150px;
-  background: linear-gradient(360deg, #050141, #062b5a);
-  position: relative !important;
-  box-shadow: 0 -5px 10px 0px rgb(255,255,255,0.1); }
+  background: linear-gradient(360deg, #050141 0%, #062b5a 100%);
+  box-shadow: 0pc -5px 10px 0px rgb(255,255,255,0.1); }
 
 .ladder {
   position: absolute;
