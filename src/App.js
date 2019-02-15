@@ -20,7 +20,7 @@ class App extends Component {
       case "about":
         return (
           <div className="talkbubble">
-            Jean is a software engineer at Fundera. She is interested in data
+            Jean is a software engineer in New York. She is interested in data
             engineering, machine learning, and computer vision. When she is not
             looking at a computer she is climbing, cooking, or attempting to
             play guitar.
