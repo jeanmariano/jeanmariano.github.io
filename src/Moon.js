@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Moon.css";
+import "./Moon.sass";
 
 class Moon extends Component {
   render() {
