@@ -70,7 +70,12 @@ body {
   color: white;
   font-size: 12px;
   font-family: 'Space Mono', monospace; }
-
+a { 
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
 .App {
   display: flex;
   flex-direction: column;

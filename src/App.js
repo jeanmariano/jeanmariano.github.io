@@ -25,7 +25,11 @@ class App extends Component {
         <div className="water">
           <div className="wave wave1" />
           <div className="wave wave2" />
-          <div className="talkbubble">Welcome to my website.</div>
+          <div className="talkbubble">
+            Welcome to Jean's website.
+            <br />
+            Want to chat? <a href="mailto:hi@jeanmariano.com">Send a note!</a>
+          </div>
           <div className="Boat">
             <div className="BoatBackground">
               <BoatBackground />
